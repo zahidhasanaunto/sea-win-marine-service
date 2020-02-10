@@ -41,10 +41,21 @@
 
 <body id="top">
     <style>
-        .option-panel-collased {
-            right: -215px;
-            display: none !important;
-        }
+       .option-panel-collased {
+			right: -215px;
+			display: none !important;
+		}
+
+		._sticky {
+			position: fixed;
+			width: 100%;
+			top: 0;
+			z-index: 9;
+		}
+
+		._header {
+			margin-top: 35px;
+		}
 
         .sub-banner {
             background: rgba(0, 0, 0, 0.04) url('assets/img/app/ship/ship1.jpg') top left repeat;
@@ -63,7 +74,7 @@
     <div class="page_loader"></div>
 
     <!-- Top header start -->
-    <header class="top-header top-header-bg d-none d-xl-block d-lg-block d-md-block header-background"
+    <header class="top-header top-header-bg d-none d-xl-block d-lg-block d-md-block header-background _sticky"
         id="top-header-2">
         <div class="container">
             <div class="row">
@@ -78,17 +89,17 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <ul class="top-social-media pull-right">
                         <li>
-                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                            <a target="_blank"  href="https://www.facebook.com/Sea-Win-Marine-Service-335265573944792/" class="facebook"><i class="fa fa-facebook"></i></a>
                         </li>
                     </ul>
                     <ul class="top-social-media pull-right">
                         <li>
-                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                            <a target="_blank"  href="https://www.twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>
                         </li>
                     </ul>
                     <ul class="top-social-media pull-right">
                         <li>
-                            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                            <a  target="_blank"   href="https://www.linkedin.com" class="linkedin"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -98,7 +109,7 @@
     <!-- Top header end -->
 
     <!-- main header start -->
-    <header class="main-header do-sticky" id="main-header-2">
+    <header class="main-header do-sticky _header" id="main-header-2">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -269,16 +280,16 @@
                                 Phone: <a href="tel:+8801972-903327 ">01972-903327</a>
                             </li>
                         </ul>
-                      <!-- <ul class="social-list clearfix"> -->
-                        <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                       <!-- <ul class="social-list clearfix"> -->
+                        <li><a target="_blank"  href="https://www.facebook.com/Sea-Win-Marine-Service-335265573944792/" class="facebook"><i class="fa fa-facebook"></i></a></li>
                         <!-- </ul> -->
                         </ul>
                         <!-- <ul class="social-list clearfix"> -->
-                            <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a target="_blank"  href="https://www.twitter.com" class="twitter"><i class="fa fa-twitter"></i></a></li>
                         <!-- </ul> -->
                         </ul>
                         <!-- <ul class="social-list clearfix"> -->
-                            <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a target="_blank"  href="https://www.linkedin.com" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
                         <!-- </ul> -->
                     </div>
                 </div>
