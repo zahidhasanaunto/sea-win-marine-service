@@ -41,11 +41,33 @@
 
 <body id="top">
     <style>
-        .option-panel-collased {
-            right: -215px;
-            display: none !important;
+		.option-panel-collased {
+			right: -215px;
+			display: none !important;
+		}
+
+		._sticky {
+			position: fixed;
+			width: 100%;
+			top: 0;
+			z-index: 9;
+		}
+
+		._header {
+			margin-top: 35px;
+		}
+
+        .sub-banner {
+            background: rgba(0, 0, 0, 0.04) url('assets/img/app/ship/ship1.jpg') top left repeat;
+            background-size: cover;
+            height: 355px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            position: relative;
+            background-color: rgba(36, 42, 53, 0.7);
         }
-    </style>
+
+	</style>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TAGCODE" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
@@ -53,8 +75,7 @@
     <div class="page_loader"></div>
 
     <!-- Top header start -->
-    <header class="top-header top-header-bg d-none d-xl-block d-lg-block d-md-block header-background"
-        id="top-header-2">
+    <div class="top-header top-header-bg d-none d-xl-block d-lg-block d-md-block header-background _sticky" id="top-header-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6">
@@ -68,27 +89,27 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <ul class="top-social-media pull-right">
                         <li>
-                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                            <a target="_blank"  href="https://www.facebook.com/Sea-Win-Marine-Service-335265573944792/" class="facebook"><i class="fa fa-facebook"></i></a>
                         </li>
                     </ul>
                     <ul class="top-social-media pull-right">
                         <li>
-                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                            <a target="_blank"  href="https://www.twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>
                         </li>
                     </ul>
                     <ul class="top-social-media pull-right">
                         <li>
-                            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                            <a  target="_blank"   href="https://www.linkedin.com" class="linkedin"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-    </header>
+    </div >
     <!-- Top header end -->
 
     <!-- main header start -->
-    <header class="main-header do-sticky" id="main-header-2">
+    <header class="main-header do-sticky _header" id="main-header-2">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -147,6 +168,20 @@
     </header>
     <!-- main header end -->
 
+      <!-- Sub banner start -->
+      <div class="sub-banner overview-bgi">
+        <div class="container">
+            <div class="breadcrumb-area">
+                <h1>About Us</h1>
+                <ul class="breadcrumbs">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active">About Us</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Sub banner end -->
+    
     <!-- Managment area start -->
     <div class="managment-area-2 content-area-10">
         <div class="container">
@@ -244,15 +279,15 @@
                         </ul>
 
                         <!-- <ul class="social-list clearfix"> -->
-                            <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a target="_blank"  href="https://www.facebook.com/Sea-Win-Marine-Service-335265573944792/" class="facebook"><i class="fa fa-facebook"></i></a></li>
                         <!-- </ul> -->
                         </ul>
                         <!-- <ul class="social-list clearfix"> -->
-                            <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a target="_blank"  href="https://www.twitter.com" class="twitter"><i class="fa fa-twitter"></i></a></li>
                         <!-- </ul> -->
                         </ul>
                         <!-- <ul class="social-list clearfix"> -->
-                            <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a target="_blank"  href="https://www.linkedin.com" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
                         <!-- </ul> -->
                     </div>
                 </div>
